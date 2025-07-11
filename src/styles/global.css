@@ -1,0 +1,27 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  image-rendering: pixelated;
+}
+
+.event-card, .menu-item, .profile-card {
+  border: 2px solid #00ffe0;
+  background: #1b1b1b;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 10px #00ffe0;
+}
+
+body.botanical {
+  background-color: #f5f5ea;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+}
+
+.menu-item.botanical {
+  background: #ffffff;
+  border-left: 6px solid #7ca982;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
