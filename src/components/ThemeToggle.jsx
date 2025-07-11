@@ -1,8 +1,9 @@
 import React from 'react';
 
-const ThemeToggle = () => {
+const ThemeToggle = ({ theme, setTheme }) => {
   const toggleTheme = () => {
-    document.body.classList.toggle('botanical');
+    const newTheme = theme === 'botanical' ? 'pixel' : 'botanical';
+    setTheme(newTheme);
   };
 
   return (

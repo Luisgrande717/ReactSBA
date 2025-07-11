@@ -1,45 +1,66 @@
-body {
+body.pixel {
   background-color: #111;
   color: #fff;
   font-family: 'Press Start 2P', cursive;
   image-rendering: pixelated;
 }
 
-.event-card, .menu-item, .profile-card {
+body.botanical {
+  background-color: #dbe5d1;
+  color: #2e4630;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Base card structure */
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* Pixel Theme */
+body.pixel .card {
   border: 2px solid #00ffe0;
   background: #1b1b1b;
-  padding: 1rem;
-  margin: 1rem;
+  color: #fff;
   box-shadow: 0 0 10px #00ffe0;
+  font-family: 'Press Start 2P', cursive;
+  image-rendering: pixelated;
 }
 
-body.botanical {
-  background-color: #f0f5f2;
-  color: #2e4b3c;
-  font-family: 'Playfair Display', serif;
-  transition: background-color 0.4s ease;
+/* Navbar */
+.navbar.botanical {
+  background-color: #4b5d43;
+  color: #f3f0e7;
 }
 
-.botanical h1, .botanical h2 {
-  color: #365b47;
+.navbar.botanical a {
+  color: #f3f0e7;
+  font-weight: 600;
 }
 
-.menu-item.botanical, .event-card.botanical, .profile-card.botanical {
+.navbar.botanical a:hover {
+  color: #cdd8c0;
+}
+
+/* Cards */
+.card.botanical {
+  background-color: #f3f0e7;
+  color: #2e4630;
+  border-left: 6px solid #6fa66f;
+  box-shadow: 0 2px 6px rgba(50, 90, 70, 0.2);
+  border-radius: 10px;
+}
+
+
+
+/* Botanical Theme */
+body.botanical .card {
   background-color: #ffffff;
-  border-left: 6px solid #7ca982;
-  padding: 1rem;
-  margin: 1rem;
-  box-shadow: 0 4px 8px rgba(124, 169, 130, 0.2);
-  border-radius: 8px;
-}
-
-.theme-toggle {
-  background-color: #7ca982;
-  border: none;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin-left: 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
+  border-left: 6px solid #81c784;
+  color: #374a3d;
+  box-shadow: 0 2px 6px rgba(50, 90, 70, 0.2);
+  font-family: 'Playfair Display', serif;
+  border-radius: 10px;
 }
