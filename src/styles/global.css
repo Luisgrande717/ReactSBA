@@ -14,14 +14,32 @@ body {
 }
 
 body.botanical {
-  background-color: #f5f5ea;
-  color: #333;
+  background-color: #f0f5f2;
+  color: #2e4b3c;
   font-family: 'Playfair Display', serif;
+  transition: background-color 0.4s ease;
 }
 
-.menu-item.botanical {
-  background: #ffffff;
+.botanical h1, .botanical h2 {
+  color: #365b47;
+}
+
+.menu-item.botanical, .event-card.botanical, .profile-card.botanical {
+  background-color: #ffffff;
   border-left: 6px solid #7ca982;
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(124, 169, 130, 0.2);
+  border-radius: 8px;
+}
+
+.theme-toggle {
+  background-color: #7ca982;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
 }
