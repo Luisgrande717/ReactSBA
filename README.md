@@ -49,7 +49,7 @@ A community-focused web application for organizing and enjoying esports events, 
 ## 💡 Unsolved Problems
 
 - Authentication layer (optional stretch goal)
-- Dynamic user-generated content support
+- Dynamic user-generated content supp
 - Persistent database (currently mocked/local)
 
 ---
