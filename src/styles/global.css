@@ -64,3 +64,9 @@ body.botanical .card {
   font-family: 'Playfair Display', serif;
   border-radius: 10px;
 }
+
+.movie-details {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: inherit;
+}
